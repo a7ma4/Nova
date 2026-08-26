@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from "react";
-import novaLogo from "/novaLogo.jpg";
-import creativityIcon from "./assets/05_creativity_icon.png";
-import designIcon from "./assets/06_design_icon.png";
-import resultsIcon from "./assets/05_paid_advertising.png";
+import novaLogo from "/novaLogo.webp";
+import creativityIcon from "./assets/05_creativity_icon.webp";
+import designIcon from "./assets/06_design_icon.webp";
+import resultsIcon from "./assets/05_paid_advertising.webp";
 import speedIcon from "./assets/08_speed_icon.png";
-import growthIcon from "./assets/06_growth_chart.png";
-import partnershipIcon from "./assets/10_partnership_icon (2).png";
-import bottomGraphic from "./assets/12_quote_banner.png";
+import growthIcon from "./assets/06_growth_chart.webp";
+import partnershipIcon from "./assets/10_partnership_icon.png";
+import bottomGraphic from "./assets/12_quote_banner.webp";
 
 // ─── Fade-up hook ────────────────────────────────────────────────────────────
 function useFadeUp() {
@@ -83,7 +83,7 @@ function IntroPage() {
           <div className="intro-tagline">CREATIVE MARKETING AGENCY</div> */}
 
 
-<img src="/first.png" />
+<img src="/first.webp" />
 
 
 
@@ -100,12 +100,12 @@ function IntroPage() {
 
       <div className="intro-contact-bar w-[70%]">
         <a href="tel:01069214165" className="intro-contact-item">
-          <img src="/14_phone_icon.png" alt="" />
+          <img src="/14_phone_icon.webp" alt="" />
           <span><b>PHONE</b><strong>010 6921 4165</strong></span>
         </a>
         <div className="intro-contact-divider" />
         <a href="mailto:team.1novamedia@gmail.com" className="intro-contact-item">
-          <img src="/15_email_icon.png" alt="" />
+          <img src="/15_email_icon.webp" alt="" />
           <span><b>EMAIL</b><strong>team.1novamedia@gmail.com</strong></span>
         </a>
       </div>
@@ -457,31 +457,31 @@ const services = [
   {
     num: "01",
     en: ["SOCIAL MEDIA", "MANAGEMENT"],
-    icon: "/01_social_media.png", // ← مسار الصورة هنا
+    icon: "/01_social_media.webp", // ← مسار الصورة هنا
     items: ["إدارة صفحات التواصل الاجتماعي", "إنشاء جداول محتوى احترافية", "التفاعل مع الجمهور وبناء مجتمع", "تحليل الأداء وتقديم تقارير دورية"],
   },
   {
     num: "02",
     en: ["GRAPHIC", "DESIGN"],
-    icon: "/02_graphic_design.png",
+    icon: "/02_graphic_design.webp",
     items: ["تصميم منشورات ومواد دعائية", "تصميم هويات بصرية (شعارات)", "تصميم كتيبات، بروشورات، وفلايرز", "تصميمات إبداعية تعكس هوية علامتك"],
   },
   {
     num: "03",
     en: ["VIDEO", "EDITING"],
-    icon: "/03_video_editing.png",
+    icon: "/03_video_editing.webp",
     items: ["مونتاج احترافي للفيديوهات", "إضافة مؤثرات وحركة نصوص", "تصميم فيديوهات دعائية وإعلانية", "تعديل الألوان ورفع جودة الفيديو"],
   },
   {
     num: "04",
     en: ["CONTENT", "CREATION"],
-    icon: "/04_content_creation.png",
+    icon: "/04_content_creation.webp",
     items: ["كتابة محتوى إبداعي وجذاب", "تصوير منتجات وخدمات احترافية", "إنتاج ريلز وفيديوهات قصيرة", "فهم الجمهور وصناعة رسائل مؤثرة"],
   },
   {
     num: "05",
     en: ["PAID", "ADVERTISING"],
-    icon: "/05_paid_advertising.png",
+    icon: "/05_paid_advertising.webp",
     items: ["إدارة حملات إعلانية على منصات متعددة", "استهداف الجمهور المناسب بدقة", "تحسين الأداء وتقليل تكلفة الإعلان", "تقارير مفصلة وشفافة للنتائج"],
   },
 ];
@@ -540,7 +540,7 @@ const ServiceIcon = ({ src, alt }: { src: string; alt: string }) => (
         {/* Bottom banner */}
         <FadeUp delay={500}>
           <div className="services-banner">
-            <div className="banner-icon"><ServiceIcon src="/06_growth_chart.png" alt="growth" /></div>
+            <div className="banner-icon"><ServiceIcon src="/06_growth_chart.webp" alt="growth" /></div>
             <p>
               <span className="text-[#1A6CFF] font-bold">نحول رؤيتك إلى نجاح حقيقي</span> — في نوفا ميديا، ندمج الإبداع بالاستراتيجية لنحقق نمواً مستداماً لعلامتك التجارية.
             </p>
@@ -551,7 +551,7 @@ const ServiceIcon = ({ src, alt }: { src: string; alt: string }) => (
                 <path className="chart-line" d="M4 84 42 76 78 79 112 57 145 65 179 40 211 47 256 10" />
                 <path className="chart-bars" d="M28 84V68M61 84V55M95 84V71M128 84V48M162 84V61M196 84V34M230 84V21" />
               </svg> */}
-              <img src="/growth.png" />
+              <img src="/growth.webp" />
             </div>
           </div>
         </FadeUp>
@@ -575,8 +575,8 @@ function WhyNova() {
     <section id="why" className="why-section" dir="ltr">
       <div className="why-geometry" aria-hidden="true" />
       <div className="why-mountain" aria-hidden="true">
-        <img src="/03_main_mountain.png" alt="" />
-        <div className="why-mountain-peak" />
+        <img src="/04_mountain_diamond.webp" alt="" />
+        {/* <div className="why-mountain-peak" /> */}
       </div>
       <div className="why-dots" aria-hidden="true" />
 
@@ -627,21 +627,21 @@ function WhyNova() {
 // ─── Our Work ────────────────────────────────────────────────────────────────
 function OurWork() {
   const workItems = [
-    { label: "Creative Product Campaign",      icon: "💡", src: "/work.jpg" },
-    { label: "Social Media Advertising",       icon: "📢", src: "/work1.jpg" },
-    { label: "Premium Product Visual",         icon: "⭐", src: "/work3.jpg" },
-    { label: "Commercial Creative Design",     icon: "☕", src: "/work4.jpg" },
-    { label: "Strategic Marketing Campaign",   icon: "🎯", src: "/work5.jpg" },
-    { label: "High-Impact Product Ad",         icon: "🔥", src: "/work6.jpg" },
-    { label: "Creative Brand Storytelling",    icon: "✨", src: "/work7.jpg" },
-    { label: "Performance-Driven Advertising", icon: "⚡", src: "/work8.jpg" },
-    { label: "Brand Promotion Design",         icon: "🏷️", src: "/work9.jpg" },
-        { label: "Creative Product Campaign",      icon: "💡", src: "/work10.jpg" },
-    { label: "Social Media Advertising",       icon: "📢", src: "/work11.jpg" },
-    { label: "Brand Promotion Design",         icon: "🏷️", src: "/work12.jpg" },
-    { label: "Premium Product Visual",         icon: "⭐", src: "/work13.jpg" },
-    { label: "Commercial Creative Design",     icon: "☕", src: "/work14.jpg" },
-    { label: "Strategic Marketing Campaign",   icon: "🎯", src: "/work15.jpg" },
+    { label: "Creative Product Campaign",      icon: "💡", src: "/work.webp" },
+    { label: "Social Media Advertising",       icon: "📢", src: "/work1.webp" },
+    { label: "Premium Product Visual",         icon: "⭐", src: "/work3.webp" },
+    { label: "Commercial Creative Design",     icon: "☕", src: "/work4.webp" },
+    { label: "Strategic Marketing Campaign",   icon: "🎯", src: "/work5.webp" },
+    { label: "High-Impact Product Ad",         icon: "🔥", src: "/work6.webp" },
+    { label: "Creative Brand Storytelling",    icon: "✨", src: "/work7.webp" },
+    { label: "Performance-Driven Advertising", icon: "⚡", src: "/work8.webp" },
+    { label: "Brand Promotion Design",         icon: "🏷️", src: "/work9.webp" },
+        { label: "Creative Product Campaign",      icon: "💡", src: "/work10.webp" },
+    { label: "Social Media Advertising",       icon: "📢", src: "/work11.webp" },
+    { label: "Brand Promotion Design",         icon: "🏷️", src: "/work12.webp" },
+    { label: "Premium Product Visual",         icon: "⭐", src: "/work13.webp" },
+    { label: "Commercial Creative Design",     icon: "☕", src: "/work14.webp" },
+    { label: "Strategic Marketing Campaign",   icon: "🎯", src: "/work15.webp" },
 
   ];
 
@@ -763,15 +763,15 @@ function OurWork() {
 }
 // function OurWorkT() {
 //   const workItems = [
-//     { label: "Creative Product Campaign",      icon: "💡", src: "/work10.jpg" },
-//     { label: "Social Media Advertising",       icon: "📢", src: "/work11.jpg" },
-//     { label: "Brand Promotion Design",         icon: "🏷️", src: "/work12.jpg" },
-//     { label: "Premium Product Visual",         icon: "⭐", src: "/work13.jpg" },
-//     { label: "Commercial Creative Design",     icon: "☕", src: "/work14.jpg" },
-//     { label: "Strategic Marketing Campaign",   icon: "🎯", src: "/work15.jpg" },
-//     { label: "High-Impact Product Ad",         icon: "🔥", src: "/work5.jpg" },
-//     { label: "Creative Brand Storytelling",    icon: "✨", src: "/work6.jpg" },
-//     { label: "Performance-Driven Advertising", icon: "⚡", src: "/work7.jpg" },
+//     { label: "Creative Product Campaign",      icon: "💡", src: "/work10.webp" },
+//     { label: "Social Media Advertising",       icon: "📢", src: "/work11.webp" },
+//     { label: "Brand Promotion Design",         icon: "🏷️", src: "/work12.webp" },
+//     { label: "Premium Product Visual",         icon: "⭐", src: "/work13.webp" },
+//     { label: "Commercial Creative Design",     icon: "☕", src: "/work14.webp" },
+//     { label: "Strategic Marketing Campaign",   icon: "🎯", src: "/work15.webp" },
+//     { label: "High-Impact Product Ad",         icon: "🔥", src: "/work5.webp" },
+//     { label: "Creative Brand Storytelling",    icon: "✨", src: "/work6.webp" },
+//     { label: "Performance-Driven Advertising", icon: "⚡", src: "/work7.webp" },
 //   ];
 
 //   return (
@@ -910,7 +910,7 @@ function CaseStudies() {
         { num: "+210%", label: "زيادة في المتابعين", icon: "users" },
         { num: "+180%", label: "عائد على الاستثمار", icon: "coin" },
       ],
-      img: "/cases.png",
+      img: "/cases.webp",
       imgAlt: "Islamic academy representing Nebras Academy",
     },
     {
@@ -927,7 +927,7 @@ function CaseStudies() {
         { num: "+260%", label: "زيادة في المبيعات", icon: "handshake" },
         { num: "-42%", label: "انخفاض تكلفة العميل", icon: "trend" },
       ],
-      img: "/case1.png",
+      img: "/case1.webp",
       imgAlt: "Advertising agency work representing Fahd Advertising",
     },
     {
@@ -944,7 +944,7 @@ function CaseStudies() {
         { num: "+190%", label: "زيادة في التفاعل", icon: "social" },
         { num: "+250%", label: "زيادة في تقييم العملاء", icon: "star" },
       ],
-      img: "/case.png",
+      img: "/case.webp",
       imgAlt: "Electronics store representing Al-Nour Astor",
     },
   ];
@@ -1048,8 +1048,8 @@ function CaseStudies() {
 
         <FadeUp delay={400}>
           <div className="why-quote mt-7">
-            <img src="/banner.png" alt=""  />
-            {/* <img src="/banner.png" alt="" className="case-quote-mountain" /> */}
+            <img src="/banner.webp" alt=""  />
+            {/* <img src="/banner.webp" alt="" className="case-quote-mountain" /> */}
             <span className="why-quote-mark">“</span>
             <p>نفخر بثقة عملائنا ونسعى دائماً لتقديم نتائج<br /><span>تفوق التوقعات ونبني شراكات طويلة الأمد.</span></p>
           </div>
@@ -1114,12 +1114,12 @@ function Packages() {
   ];
 
 const clients = [
-  { name: "BURGER\nHOUSE",   logo: "/burger.png" },
-  { name: "GLOW\nSKINCARE",  logo: "/glow.png" },
-  { name: "LIFE\nCARE",      logo: "/care.png" },
-  { name: "HOME STYLE",      logo: "/home.png" },
-  { name: "URBAN\nWEAR",     logo: "/wear.png" },
-  { name: "BRBAW\nPOINT",    logo: "/point.png" },
+  { name: "BURGER\nHOUSE",   logo: "/burger.webp" },
+  { name: "GLOW\nSKINCARE",  logo: "/glow.webp" },
+  { name: "LIFE\nCARE",      logo: "/care.webp" },
+  { name: "HOME STYLE",      logo: "/home.webp" },
+  { name: "URBAN\nWEAR",     logo: "/wear.webp" },
+  { name: "BRBAW\nPOINT",    logo: "/point.webp" },
 ];
   return (
     <section id="packages" className="packages-section relative overflow-hidden" dir="ltr">
@@ -1148,7 +1148,7 @@ const clients = [
                     <h3>{plan.name}</h3>
                     <p>{plan.sub}</p>
                   </div>
-                  <div className="package-symbol" aria-hidden="true"> <img src={plan.tone === "premium" ? "/premuim.png" : plan.tone === "standard" ? "/standard.png" : "/basic.png"} /> </div>
+                  <div className="package-symbol" aria-hidden="true"> <img src={plan.tone === "premium" ? "/premuim.webp" : plan.tone === "standard" ? "/standard.webp" : "/basic.webp"} /> </div>
                 </div>
                 <div className="package-divider" />
                 <div className="package-price"><strong>{plan.price}</strong><span>جنيه / شهرياً</span></div>
@@ -1168,7 +1168,7 @@ const clients = [
         <div className=" w-full">
 \
           <div className="w-full">
-            <img src="/workflow.png" className="w-full"/>
+            <img src="/workflow.webp" className="w-full"/>
           </div>
         </div>
 
@@ -1199,7 +1199,7 @@ const clients = [
     </div>
      <FadeUp delay={200}>
           <div className="w-full banner1-strip ">
-            <img src="/banner1.png" alt="" />
+            <img src="/banner1.webp" alt="" />
            
            </div>
            </FadeUp>
@@ -1207,7 +1207,7 @@ const clients = [
 
         
     <div className=" together-strip" >
-      <img className="h-full w-full " src="/together.png" />
+      <img className="h-full w-full " src="/together.webp" />
     </div>
 
 
@@ -1216,7 +1216,7 @@ const clients = [
   </div>
       <FadeUp delay={200}>
           <div className="w-full banner2-strip ">
-            <img src="/banner1.png" alt="" />
+            <img src="/banner1.webp" alt="" />
            
            </div>
            </FadeUp>
@@ -1246,7 +1246,7 @@ function Contact() {
 
       <div className="max-w-4xl mx-auto px-6 text-center">
          <FadeUp delay={150}>
-           <div className="intro-logo-lockup mb-10"><img src="/first.png" /></div>
+           <div className="intro-logo-lockup mb-10"><img src="/first.webp" /></div>
          </FadeUp>
         
         <FadeUp>
@@ -1275,7 +1275,7 @@ function Contact() {
               className="flex items-center justify-center gap-3 group"
             >
               <div className="w-12 h-12 rounded-full bg-[#1A6CFF]/20 border border-[#1A6CFF]/30 flex items-center justify-center group-hover:bg-[#1A6CFF]/30 transition-colors">
-                <img src="/14_phone_icon.png" />
+                <img src="/14_phone_icon.webp" />
               </div>
               <div className="text-left">
                 <div className="text-white/40 font-inter text-xs tracking-widest">PHONE</div>
@@ -1290,7 +1290,7 @@ function Contact() {
               className="flex items-center justify-center gap-3 group"
             >
               <div className="w-12 h-12 rounded-full bg-[#1A6CFF]/20 border border-[#1A6CFF]/30 flex items-center justify-center group-hover:bg-[#1A6CFF]/30 transition-colors">
-                                <img src="/15_email_icon.png" />
+                                <img src="/15_email_icon.webp" />
 
               </div>
               <div className="text-left">
@@ -1305,9 +1305,9 @@ function Contact() {
         <FadeUp delay={350}>
           <div className="flex justify-center gap-4">
             {[
-           { label: "Facebook",  icon: "/16_facebook_icon.png",  href: "#" },
-      { label: "Instagram", icon: "/17_instagram_icon.png", href: "#" },
-      { label: "WhatsApp",  icon: "/14_phone_icon.png",     href: "#" },
+           { label: "Facebook",  icon: "/16_facebook_icon.webp",  href: "#" },
+      { label: "Instagram", icon: "/17_instagram_icon.webp", href: "#" },
+      { label: "WhatsApp",  icon: "/14_phone_icon.webp",     href: "#" },
             ].map((s) => (
               <a
                  key={s.label}

@@ -202,22 +202,22 @@ body {
 
 .why-mountain {
   position: absolute;
-  top: -50px;
-  right: -40px;
-  width: 42%;
-  height: 500px;
-  overflow: hidden;
+  top: -70px;
+  right: -130px;
+  width: 40%;
+  height: 550px;
+  /* overflow: hidden;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   z-index: 1;
   outline: 1px solid rgba(26, 108, 255, 0.6);
-  outline-offset: 0;
+  outline-offset: 0; */
+  opacity: 1;
 }
 
 .why-mountain img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-position: center ;
+
 }
 
 .why-mountain-peak {

@@ -728,7 +728,7 @@ function OurWork() {
                 {/* Image */}
                 <div
                   className="relative overflow-hidden"
-                  style={{ aspectRatio: "4/3", background: "linear-gradient(135deg,#0D2040,#050D1A)" }}
+                  style={{ aspectRatio: "3/3", background: "linear-gradient(135deg,#0D2040,#050D1A)" }}
                 >
                   <img
                     src={item.src}
@@ -761,137 +761,7 @@ function OurWork() {
     </section>
   );
 }
-// function OurWorkT() {
-//   const workItems = [
-//     { label: "Creative Product Campaign",      icon: "💡", src: "/work10.webp" },
-//     { label: "Social Media Advertising",       icon: "📢", src: "/work11.webp" },
-//     { label: "Brand Promotion Design",         icon: "🏷️", src: "/work12.webp" },
-//     { label: "Premium Product Visual",         icon: "⭐", src: "/work13.webp" },
-//     { label: "Commercial Creative Design",     icon: "☕", src: "/work14.webp" },
-//     { label: "Strategic Marketing Campaign",   icon: "🎯", src: "/work15.webp" },
-//     { label: "High-Impact Product Ad",         icon: "🔥", src: "/work5.webp" },
-//     { label: "Creative Brand Storytelling",    icon: "✨", src: "/work6.webp" },
-//     { label: "Performance-Driven Advertising", icon: "⚡", src: "/work7.webp" },
-//   ];
 
-//   return (
-//     <section
-//       id="work"
-//       className="py-24 relative overflow-hidden"
-//       style={{ background: "#050D1A" }}
-//       dir="ltr"
-//     >
-//        <div className="geo-corner" />
-//       {/* Dot grid */}
-//       <div
-//         className="absolute inset-0 pointer-events-none"
-//         style={{
-//           backgroundImage: "radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px)",
-//           backgroundSize: "28px 28px",
-//         }}
-//       />
-
-//       {/* Blue glow top-left */}
-//       <div
-//         className="absolute top-0 left-0 w-96 h-96 pointer-events-none"
-//         style={{ background: "radial-gradient(circle at 0% 0%, rgba(26,108,255,0.08), transparent 60%)" }}
-//       />
-
-//       {/* Page number — top right (matches the image "05 ——") */}
-//       <div
-//         className="absolute top-6 right-6 flex items-center gap-2"
-//         style={{ direction: "ltr" }}
-//       >
-//         <span className="font-inter font-bold text-sm" style={{ color: "#1A6CFF" }}>05</span>
-//         <div className="h-px w-16" style={{ background: "rgba(26,108,255,0.45)" }} />
-//       </div>
-
-//       <div className="max-w-7xl mx-auto px-6">
-
-//         {/* ── Header ── */}
-//         <FadeUp>
-//           <div
-//             className="flex flex-col md:flex-row md:items-end md:justify-between mb-12 gap-6"
-            
-//           >
-//             {/* Right side: big title */}
-//             <div>
-//               <h2
-//                 className="font-inter font-black leading-[0.9]"
-//                 style={{ fontSize: "clamp(3.5rem, 9vw, 7rem)", color: "#fff" }}
-//               >
-//                 OUR
-//               </h2>
-//               <h2
-//                 className="font-inter font-black leading-[0.9]"
-//                 style={{ fontSize: "clamp(3.5rem, 9vw, 7rem)", color: "#1A6CFF" }}
-//               >
-//                 WORK
-//               </h2>
-//               <div className="h-[3px] w-14 mt-5 mb-3" style={{ background: "#1A6CFF" }} />
-//               <p className="font-cairo text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
-//                 نماذج من أعمالنا الإبداعية
-//               </p>
-//             </div>
-
-//             {/* Left side: description */}
-//             <p
-//               className="font-cairo text-base leading-loose max-w-xs text-right"
-//               style={{ color: "rgba(255,255,255,0.6)" }}
-//             >
-//               نفخر بمجموعة من المشاريع الناجحة التي نفذناها لعلامات تجارية
-//               متنوعة في مختلف المجالات.
-//             </p>
-//           </div>
-//         </FadeUp>
-
-//         {/* ── 3×3 Grid ── */}
-//         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-//           {workItems.map((item, i) => (
-//             <FadeUp key={item.label} delay={i * 70}>
-//               <div
-//                 className="group rounded-xl overflow-hidden cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(26,108,255,0.2)]"
-//                 style={{
-//                   border: "1px solid rgba(255,255,255,0.1)",
-//                   background: "#0A1628",
-//                 }}
-//               >
-//                 {/* Image */}
-//                 <div
-//                   className="relative overflow-hidden"
-//                   style={{ aspectRatio: "4/3", background: "linear-gradient(135deg,#0D2040,#050D1A)" }}
-//                 >
-//                   <img
-//                     src={item.src}
-//                     alt={item.label}
-//                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-//                     onError={(e) => { e.currentTarget.style.display = "none"; }}
-//                   />
-//                   {/* Blue overlay on hover */}
-//                   <div
-//                     className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-//                     style={{ background: "rgba(26,108,255,0.08)" }}
-//                   />
-//                 </div>
-
-//                 {/* Label */}
-//                 <div
-//                   className="flex items-center gap-2.5 px-4 py-3"
-//                   style={{ background: "#07111F", borderTop: "1px solid rgba(255,255,255,0.06)" }}
-//                 >
-//                   <span className="text-xs">{item.icon}</span>
-//                   <span className="font-inter text-xs" style={{ color: "rgba(255,255,255,0.65)" }}>
-//                     {item.label}
-//                   </span>
-//                 </div>
-//               </div>
-//             </FadeUp>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 
 // ─── Case Studies ─────────────────────────────────────────────────────────────
 function CaseStudies() {
@@ -1064,58 +934,67 @@ function CaseStudies() {
 
 // ─── Packages ────────────────────────────────────────────────────────────────
 function Packages() {
-  const plans = [
-    {
-      name: "PREMIUM",
-      sub: "باقة متكاملة لنمو مستدام",
-      price: "12,000",
-      featured: false,
-      tone: "premium",
-      cta: "الأفضل للنمو والتوسع",
-      items: [
-        "إدارة كاملة لحسابات السوشيال ميديا",
-        "تصميم محتوى يومي (صور + فيديو)",
-        "حملات إعلانية مدفوعة احترافية",
-        "تقارير أداء أسبوعية مفصلة",
-        "تحليل للجمهور والمنافسين",
-        "خطة تسويقية مخصصة",
-      ],
-    },
-    {
-      name: "STANDARD",
-      sub: "باقة متوازنة لنجاح ثابت",
-      price: "7,000",
-      featured: true,
-      tone: "standard",
-      badge: "الأكثر اختياراً",
-      cta: "اختر الباقة الأمثل",
-      items: [
-        "إدارة حسابات السوشيال ميديا",
-        "تصميم 15 منشور شهرياً",
-        "حملات إعلانية بميزانية مدفوعة",
-        "تقارير أداء شهرية",
-        "تحسين التفاعل والمنافسين",
-      ],
-    },
-    {
-      name: "BASIC",
-      sub: "باقة البداية الذكية",
-      price: "5,000",
-      featured: false,
-      tone: "basic",
-      cta: "بداية قوية لعلامتك التجارية",
-      items: [
-        "إدارة حسابات السوشيال ميديا",
-        "تصميم 8 منشورات شهرياً",
-        "تقارير أداء شهرية",
-        "دعم فني واستشاري",
-      ],
-    },
-  ];
+const plans = [
+  {
+    name: "PREMIUM",
+    sub: "باقة النمو المتكامل ⭐",
+    price: "2,000",
+    featured: false,
+    tone: "premium",
+    cta: "الأفضل للنمو والتوسع",
+    items: [
+      "إدارة كاملة للسوشيال ميديا",
+      "20 منشور شهريًا",
+      "كتابة المحتوى + تصاميم احترافية",
+      "🎬 مونتاج 8 فيديوهات شهريًا",
+      "إدارة وتحسين الإعلانات الممولة",
+      "إعداد حملات بأهداف مختلفة",
+      "تحليل الجمهور والمنافسين",
+      "خطة محتوى وتسويق شهرية",
+      "تحسين الحملات بناءً على النتائج",
+      "تقرير أداء وتحليل شامل",
+      "استشارات تسويقية مستمرة",
+    ],
+  },
+  {
+    name: "STANDARD",
+    sub: "باقة النمو",
+    price: "1,000",
+    featured: true,
+    tone: "standard",
+    badge: "الأكثر اختياراً",
+    cta: "اختر الباقة الأمثل",
+    items: [
+      "إدارة حسابات السوشيال ميديا",
+      "15 منشور شهريًا",
+      "كتابة المحتوى والتصميم",
+      "🎬 مونتاج 4 فيديوهات شهريًا",
+      "إدارة وتحسين الإعلانات الممولة",
+      "تحليل المنافسين",
+      "تقرير أداء شهري",
+    ],
+  },
+  {
+    name: "BASIC",
+    sub: "باقة البداية",
+    price: "700 ﷼",
+    featured: false,
+    tone: "basic",
+    cta: "بداية قوية لعلامتك التجارية",
+    items: [
+      "إدارة حسابات السوشيال ميديا",
+      "8 منشورات شهريًا",
+      "كتابة المحتوى",
+      "تصميم المنشورات",
+      "إدارة الإعلانات الممولة",
+      "تقرير أداء شهري",
+    ],
+  },
+];
 
 const clients = [
   { name: "BURGER\nHOUSE",   logo: "/burger.webp" },
-  { name: "GLOW\nSKINCARE",  logo: "/glow.webp" },
+  { name: "GLOW\nSKINCARE",  logo: "/glow.png" },
   { name: "LIFE\nCARE",      logo: "/care.webp" },
   { name: "HOME STYLE",      logo: "/home.webp" },
   { name: "URBAN\nWEAR",     logo: "/wear.webp" },
@@ -1148,10 +1027,10 @@ const clients = [
                     <h3>{plan.name}</h3>
                     <p>{plan.sub}</p>
                   </div>
-                  <div className="package-symbol" aria-hidden="true"> <img src={plan.tone === "premium" ? "/premuim.webp" : plan.tone === "standard" ? "/standard.webp" : "/basic.webp"} /> </div>
+                  <div className="package-symbol" aria-hidden="true"> <img src={plan.tone === "premium" ? "/premuim.webp" : plan.tone === "standard" ? "/standard.png" : "/basic.webp"} /> </div>
                 </div>
                 <div className="package-divider" />
-                <div className="package-price"><strong>{plan.price}</strong><span>جنيه / شهرياً</span></div>
+                <div className="package-price"><strong>{plan.price}</strong><span>﷼ / شهرياً</span></div>
                 <ul className="package-features">
                     {plan.items.map((item) => (
                       <li key={item}><span className="package-check">✓</span>{item}
@@ -1307,7 +1186,7 @@ function Contact() {
             {[
            { label: "Facebook",  icon: "/16_facebook_icon.webp",  href: "#" },
       { label: "Instagram", icon: "/17_instagram_icon.webp", href: "#" },
-      { label: "WhatsApp",  icon: "/14_phone_icon.webp",     href: "#" },
+      { label: "WhatsApp",  icon: "/14_phone_icon.webp",     href:"https://wa.me/201069214165" },
             ].map((s) => (
               <a
                  key={s.label}

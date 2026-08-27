@@ -938,7 +938,7 @@ const plans = [
   {
     name: "PREMIUM",
     sub: "باقة النمو المتكامل ⭐",
-    price: "2,000",
+    price: "2,000 ﷼",
     featured: false,
     tone: "premium",
     cta: "الأفضل للنمو والتوسع",
@@ -959,7 +959,7 @@ const plans = [
   {
     name: "STANDARD",
     sub: "باقة النمو",
-    price: "1,000",
+    price: "1,000 ﷼",
     featured: true,
     tone: "standard",
     badge: "الأكثر اختياراً",

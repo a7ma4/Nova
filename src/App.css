@@ -512,7 +512,7 @@ background: #020619;
 }
 .case-study-card > div { min-height: 220px; }
 .case-study-card > div > div:first-child { border-right: 1px solid rgba(26,108,255,.32); }
-.case-study-card > div > div:first-child img { opacity: .72; filter: saturate(.8) contrast(1.05); }
+.case-study-card > div > div:first-child img { opacity: 1; filter: saturate(.8) contrast(1.05); }
 .case-study-card > div > div:nth-child(2) { padding: 22px 28px; }
 .case-study-card h3 { font-size: 1.08rem; letter-spacing: .03em; }
 .case-study-card p { line-height: 1.7; }

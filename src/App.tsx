@@ -1184,8 +1184,8 @@ function Contact() {
         <FadeUp delay={350}>
           <div className="flex justify-center gap-4">
             {[
-           { label: "Facebook",  icon: "/16_facebook_icon.webp",  href: "#" },
-      { label: "Instagram", icon: "/17_instagram_icon.webp", href: "#" },
+           { label: "Facebook",  icon: "/16_facebook_icon.webp",  href: "https://www.facebook.com/share/1brWUVecG6/" },
+      { label: "Instagram", icon: "/17_instagram_icon.webp", href: "https://www.instagram.com/p/DbiwcelnDFI/?stkn=MWo1MXplNTF1ZzNtMg==" },
       { label: "WhatsApp",  icon: "/14_phone_icon.webp",     href:"https://wa.me/201069214165" },
             ].map((s) => (
               <a
